@@ -1,0 +1,85 @@
+
+
+
+.nav-link {
+	font-family: 'Candal', sans-serif;
+
+}
+
+.navbar {
+	background-color: #fcfcfc !important;
+}
+
+.nav-link i {
+	color: #fb8b9b;
+}
+
+
+.overlay {
+	background-image: url(img/background.jpg);
+	height:500px;
+}
+
+
+.overlay h1, .overlay h2 {
+	color:white;
+	font-family: 'Candal', sans-serif;
+
+
+} 
+
+
+.overlay h2 {
+	font-size: 1.8em;
+}
+
+
+.recherche  {
+	background-color: #fb8b9b;
+}
+
+
+.recherche h3 {
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+margin-left: 100px;
+margin-top: 25px;
+margin-bottom: 25px;
+color:white;
+font-weight: 300;
+letter-spacing: 5px;
+transition: color .5s ease-in-out;
+
+}
+
+
+.recherche h3:hover {
+	color:#ffcad0;
+}
+
+
+.solution, .choix-hebergement  {
+	margin: 75px 120px;
+	border: dashed 1px;
+	border-bottom: none;
+	padding-top: 45px;
+	padding-bottom: 45px;
+
+}
+
+article i , article h3 {
+
+}
+
+article i , article h3, article h4 {
+	color: #fb8b9b;
+}
+
+.features h3 {
+		font-family: 'Candal', sans-serif;
+		font-size: 1.2em;
+
+}
+
+
+

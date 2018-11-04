@@ -11,6 +11,13 @@
 	<!-- bootstrap link -->	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+	<!-- google fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+
+	
 
 	<!-- personal style -->
 	<link rel="stylesheet" href="style.css">
@@ -22,31 +29,31 @@
 <header>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto ">
       
       <li class="nav-item">
-        <a class="nav-link" href="#">Serveur Mutualisé</a>
+        <a class="nav-link text-center" href="#"><i class="fas fa-users"></i> <br> <br>Serveur Mutualisé</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Serveur Dédié</a>
+        <a class="nav-link text-center" href="#"><i class="fas fa-user"></i> <br><br>Serveur Dédié</a>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Serveur Cloud</a>
+        <a class="nav-link  text-center" href="#"><i class="fas fa-cloud"></i> <br> <br>Serveur Cloud</a>
       </li>
 
 
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Contact</a>
+        <a class="nav-link text-center" href="#"><i class="fas fa-envelope"></i> <br> <br>Contact</a>
       </li>
     </ul>
     
@@ -60,19 +67,19 @@
 <!-- start of main section -->
 <main>
 	
-<section class="container-fluid">
+<section class="container-fluid text-center overlay">
 
-	<div class="row">
+	<div class="row d-flex flex-column justify-content-center">
 		
-		<h1>L'hébergement à prix libre</h1>
+		<h1 class="mx-auto  my-5">L'hébergement à prix libre</h1>
 
-		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quis sapiente optio. Reprehenderit, cupiditate. Eveniet praesentium</h2>
+		<h2 class=" my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quis sapiente optio. Reprehenderit, cupiditate</h2>
 	</div>
 	
 </section>
 
 
-<section class="container-fluid">
+<section class="container-fluid recherche">
 	<div class="row">
 	<h3>Que recherchez-vous ?</h3>
 	</div>
@@ -83,33 +90,36 @@
 
 <section class="container-fluid">
 	
-<div class="row">
-	<h2>Notre solution en 3 points</h2>
+<div class="row solution">
+	<h2 class="mx-auto">Notre solution en 3 points</h2>
 
 
 </div>
 
 
-<div class="row">
+<div class="row features d-flex justify-content-between">
 	
-	<article>
-		<i></i>
-		<h3></h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet nostrum corporis earum natus velit</p>
+	<article class='col-4 text-center'>
+		<i class="fas fa-cogs fa-2x"></i> 
+		<br><br>
+		<h3>Configuration</h3>
+		<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet nostrum corporis earum natus velit</p>
 	</article>
 
 
-	<article>
-		<i></i>
-		<h3></h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet nostrum corporis earum natus velit</p>
+	<article class='col-4 text-center'>
+		<i class="fas fa-chart-area fa-2x"></i> 
+		<br><br>
+		<h3>Monitoring</h3>
+		<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet nostrum corporis earum natus velit</p>
 	</article>
 
 
-	<article>
-		<i></i>
-		<h3></h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet nostrum corporis earum natus velit</p>
+	<article class='col-4 text-center'>
+		<i class="fas fa-database fa-2x"></i> 
+		<br><br>
+		<h3>Sauvegarde</h3>
+		<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet nostrum corporis earum natus velit</p>
 	</article>
 
 
@@ -118,33 +128,38 @@
 </section>
 
 
-<section class="container-fluid">
+<section class="container-fluid ">
+<div class="row choix-hebergement">
+	<h2 class="mx-auto">Choisissez votre hébergement</h2>
+</div>
+	<div class="row features d-flex justify-content-between">
+		<article class='col-4 text-center'>
+			<i class="fas fa-users fa-2x"></i>
+			<br><br> 
+			<h3>Serveur mutualisé</h3>
+			<h4 class="my-4">19 € / mois</h4>
 
-	<div class="row">
-		<article>
-			<i></i>
-			<h3></h3>
-			<h4></h4>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit eveniet earum omnis sed, ullam eaque maiores harum</p>
+			<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit eveniet earum omnis sed, ullam eaque maiores harum</p>
 		</article>
 
 
-		<article>
-			<i></i>
-			<h3></h3>
-			<h4></h4>
+		<article class='col-4 text-center'>
+			<i class="fas fa-user fa-2x"></i>
+			<br><br>
+			<h3>Serveur dédié</h3>
+			<h4 class="my-4" >39 € / mois</h4>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit eveniet earum omnis sed, ullam eaque maiores harum</p>
+			<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit eveniet earum omnis sed, ullam eaque maiores harum</p>
 		</article>
 
 
-		<article>
-			<i></i>
-			<h3></h3>
-			<h4></h4>
+		<article class='col-4 text-center'>
+			<i class="fas fa-cloud fa-2x"></i>
+			<br><br>
+			<h3>Service Cloud</h3>
+			<h4 class="my-4">49 € / mois</h4>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit eveniet earum omnis sed, ullam eaque maiores harum</p>
+			<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit eveniet earum omnis sed, ullam eaque maiores harum</p>
 		</article>
 	</div>
 	
@@ -158,10 +173,9 @@
 
 <!-- start of footer section -->
 
-
-
+ <footer>
+ 	
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -194,6 +208,10 @@
       
   </div>
 </nav>
+
+
+</footer>
+
 
 <!-- End of footer section -->
 <!-- bootstrap JS scripts -->
